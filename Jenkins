@@ -1,8 +1,7 @@
 Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
-    tools { 
-        maven 'Maven 3.3.9' 
+    tools {  
         jdk 'jdk8' 
     }
     stages {
